@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" >
+    <title>Homework</title>
+</head>
+<body>
+    <div>
+    <div class="calculator">
+        <input id="firstNumber" class="number-input" type="number" />     
+        <select id="operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">\</option>
+            <option value="=">=</option>
+            <option value=">=">>=</option>
+            <option value="<="><=</option>
+        </select>
+        <input id="secondNumber" class="number-input" type="number" />
+        <button onclick="calculate()" class="calculate">Calculate</button>
+        <label for="result">
+            Result:
+            <input id="result" class="result" type="text" readonly />
+        </label>
+    </div>
+</div>
+    <script type="text/javascript" src="./calculate.js"></script>
+</body>
+</html>
